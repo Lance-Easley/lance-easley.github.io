@@ -123,22 +123,12 @@ main {
     }
     
     nav a {
-        font-size: 28px;
+        font-size: 20px;
         margin: 0px;
         margin-bottom: 0px;
     }
 
     #main-section section {
-        margin: 0px;
-    }
-}
-
-@media (max-width: 500px) {
-    :root {
-        font-size: 18px;
-    }
-    
-    nav a {
-        font-size: 20px;
+        margin: 25px 0px 0px;
     }
 }
