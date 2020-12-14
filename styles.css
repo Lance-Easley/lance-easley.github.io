@@ -132,3 +132,13 @@ main {
         margin: 0px;
     }
 }
+
+@media (max-width: 500px) {
+    :root {
+        font-size: 18px;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+}
