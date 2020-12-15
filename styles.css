@@ -82,6 +82,27 @@ ul {
 #projects {
     background-color: white;
     padding: 40px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-card {
+    width: 400px;
+    height: 400px;
+    background-color: #D5D7D6;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
 }
 
 #contact {
@@ -164,5 +185,10 @@ ul {
     #main-section section {
         margin: 25px 0px 0px;
         padding: 40px 40px 30px;
+    }
+
+    .projects-category {
+        flex-direction: column;
+        align-items: center;
     }
 }
