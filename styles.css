@@ -8,6 +8,10 @@
     src: url(font/LSS.ttf) format('truetype')
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 48px;
