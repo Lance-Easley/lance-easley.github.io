@@ -204,7 +204,7 @@ ul {
 #icons {
     position: absolute;
     width: 100%;
-    bottom: 13vh;
+    top: 79vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
