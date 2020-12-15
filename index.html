@@ -6,23 +6,27 @@
     <title>Lance's Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://befonts.com/leoscar-font.html" />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
   <body>
     <section id="title">
       <img src="images/title_bg2.jpg" alt="" />
       <h1>Lance Easley</h1>
       <h2>I do code stuff</h2>
+      <div id="icons">
+        <a href="https://github.com/Lance-Easley" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/j-lance-easley-309136200/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+      </div>
     </section>
     <main>
       <nav>
         <a href="#about-me">About Me</a>
-        <a href="#about-me">Skills</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
       <div id="main-section">
         <section id="about-me">
-          <h1>About Me</h1>
+          <h1 class="accent">About Me</h1>
           <p>
             I am a student at Base Camp Coding Academy, where I am learning to
             become a full-stack developer. From my time at BCCA, however, I have
@@ -53,15 +57,20 @@
           </p>
         </section>
         <section id="skills">
-          <h1>Skills</h1>
-          <p>I am fluent in Python and SQL.</p>
+          <h1 class="accent">Skills</h1>
+          <h2>I am fluent in:</h2>
+          <ul>
+            <li><p>Python</p></li>
+            <li><p>SQL</p></li>
+            <li><p>HTML</p></li>
+            <li><p>CSS</p></li>
+          </ul>
         </section>
         <section id="projects">
-          <h1>Projects</h1>
+          <h1 class="accent">Projects</h1>
         </section>
         <section id="contact">
             <h1 class="white">Contact Me</h1>
-            <a class="white" href="https://github.com/Lance-Easley">Github</a>
         </section>
       </div>
     </main>

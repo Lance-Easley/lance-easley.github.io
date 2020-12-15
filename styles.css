@@ -12,6 +12,7 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 48px;
     margin: 0px;
+    text-align: center;
 }
 
 body {
@@ -49,8 +50,16 @@ main {
     border-top: 3px solid #1F1F1E;
 }
 
+ul {
+    margin: 0px;
+}
+
 .white {
     color: white;
+}
+
+.accent {
+    color: #3077D9
 }
 
 #main-section section {
@@ -59,12 +68,15 @@ main {
 
 #about-me {
     background-color: white;
-    padding: 40px 40px 30px;
+    padding: 40px 10% 30px;
 }
 
 #skills {
     background-color: #D5D7D6;
     padding: 40px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #projects {
@@ -97,8 +109,8 @@ main {
     color: white;
     font-size: 90px;
     text-shadow: 3px 3px 5px black;
-    margin-top: 200px;
-    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #title h2 {
@@ -108,6 +120,27 @@ main {
     text-shadow: 3px 3px 5px black;
     text-align: center;
     margin-top: 10px;
+}
+
+#icons {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#icons i {
+    font-size: 64px;
+    transition: color 0.2s ease-out, font-size 0.2s ease-out, transform 0.2s ease-out;
+    margin: 0px 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+#icons i:hover {
+    color: #3077D9;
+    font-size: 80px;
+    transform: translateY(-8px)
 }
 
 @media (max-width: 1000px) {
@@ -130,5 +163,6 @@ main {
 
     #main-section section {
         margin: 25px 0px 0px;
+        padding: 40px 40px 30px;
     }
 }
