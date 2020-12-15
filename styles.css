@@ -95,14 +95,31 @@ ul {
 
 .project-card {
     width: 400px;
-    height: 400px;
+    height: 325px;
     background-color: #D5D7D6;
     margin: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid #3077D9;
+    transition: border 0.2s ease-out;
 }
 
 .project-card img {
-    width: 100%;
+    width: 97.5%;
+    height: 75%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.projects-category a {
+    text-decoration: none;
+    color: #1F1F1E;
+}
+
+.project-card:hover {
+    border: 5px solid #3077D9;
 }
 
 #contact {
