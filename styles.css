@@ -46,7 +46,6 @@ main {
     background-color: white;
     height: 100%;
     width: auto;
-    margin-top: -100px;
     border-top: 3px solid #1F1F1E;
 }
 
@@ -180,13 +179,17 @@ ul {
     position: fixed;
 }
 
+#title-text {
+    position: absolute;
+    width: 100%;
+    top: 13vh;
+}
+
 #title h1 {
     font-family: Leoscar;
     color: white;
     font-size: 90px;
     text-shadow: 3px 3px 5px black;
-    margin-top: 100px;
-    padding-top: 100px;
 }
 
 #title h2 {
@@ -199,7 +202,9 @@ ul {
 }
 
 #icons {
-    margin-top: 400px;
+    position: absolute;
+    width: 100%;
+    bottom: 13vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -249,13 +254,5 @@ ul {
 
     #contacts {
         flex-direction: column;
-    }
-
-    #title img {
-        top: 0px;
-    }
-
-    #icons {
-        margin-top: 100px;
     }
 }
