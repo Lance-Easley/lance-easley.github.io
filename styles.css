@@ -13,7 +13,7 @@ html {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 48px;
     margin: 0px;
     text-align: center;
@@ -190,14 +190,14 @@ ul {
 }
 
 #title h1 {
-    font-family: Leoscar;
+    font-family: Leoscar, serif;
     color: white;
     font-size: 90px;
     text-shadow: 3px 3px 5px black;
 }
 
 #title h2 {
-    font-family: Leoscar;
+    font-family: Leoscar, serif;
     color: #3077D9;
     font-size: 32px;
     text-shadow: 3px 3px 5px black;
