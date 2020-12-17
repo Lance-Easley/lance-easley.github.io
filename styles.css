@@ -24,6 +24,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .white {
     color: white;
 }
@@ -233,14 +237,20 @@ main {
     margin: 40px;
 }
 
+.contact p:hover {
+    text-decoration: underline;
+}
+
 .contact i {
     color: #3077D9;
     font-size: 50px;
+    margin: 15px;
 }
 
 .contact p {
     color: #D5D7D6;
     font-size: 16px;
+    margin: 5px;
 }
 
 /* Media Query for single column layout */
