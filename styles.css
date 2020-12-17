@@ -186,7 +186,7 @@ main {
     height: 301px;
     background-color: #D5D7D6;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
