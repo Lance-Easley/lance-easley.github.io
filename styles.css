@@ -182,9 +182,16 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     font-size: 24px;
     margin: 40px;
     width: 200px;
+}
+
+#skills #dj-image {
+    padding-top: 15px;
+    width: 75px;
+    margin-right: 10px;
 }
 
 /* Projects */
