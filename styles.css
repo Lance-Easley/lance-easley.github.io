@@ -204,6 +204,16 @@ main {
     align-items: center;
 }
 
+#project h2 {
+    margin-bottom: 35px;
+}
+
+.project-desc {
+    text-align: center;
+    max-width: 725px;
+    margin: 0 0 30px;
+}
+
 .projects-category {
     display: flex;
     flex-direction: row;
