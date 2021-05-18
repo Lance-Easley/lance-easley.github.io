@@ -33,7 +33,7 @@ a {
 }
 
 .accent {
-    color: #3077D9
+    color: #3077D9;
 }
 
 /* Title css */
@@ -60,10 +60,32 @@ a {
 }
 
 #title h1 {
-    font-family: Leoscar, serif;
+    font-family: Leoscar, sans-serif;
     color: white;
     font-size: 90px;
     text-shadow: 3px 3px 5px black;
+    transition: all 0.5s linear;
+}
+
+#title h2 {
+    font-family: Leoscar, sans-serif;
+    color: #3077D9;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black;
+    transition: all 0.5s linear;
+    text-align: center;
+}
+
+.cursor::after {
+    color: white;
+    content: "|";
+    opacity: 0;
+    animation: blink 1s 5 linear;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
 }
 
 /* #title h2 {
