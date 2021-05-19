@@ -1,4 +1,4 @@
-const titleSubHeading = document.querySelector("#title-subtext")
+const titleSubHeading = document.querySelector("#title-subtext");
 
 function typeAnimation(text, speed) {
     for (let i = 0; i < text.length; i++) {
@@ -10,4 +10,4 @@ function typeAnimation(text, speed) {
 
 setTimeout(() => {
     typeAnimation("I do code stuff", 100)
-}, 2000)
+}, 1500)
