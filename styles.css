@@ -42,7 +42,13 @@ a {
     color: #3077D9;
 }
 
+.small {
+    font-size: 18px;
+    color: #4F4F4E;
+}
+
 /* Title css */
+
 #title {
     height: 100vh;
     width: 100%;
@@ -298,10 +304,15 @@ main {
     align-items: center;
 }
 
+#contact-section h3 {
+    padding: 20px;
+    margin: 0;
+}
+
 #contacts {
     display: flex;
     flex-direction: row;
-    margin: 100px 0px 50px;
+    margin: 25px 0px 50px;
 }
 
 .contact {
@@ -319,17 +330,20 @@ main {
     color: white;
     font-size: 50px;
     margin: 15px;
+    padding: 0;
 }
 
 #contacts i {
-    transition: color 0.2s ease-out, font-size 0.2s ease-out, transform 0.2s ease-out;
+    transition: color 0.2s ease-out, font-size 0.2s ease-out, transform 0.2s ease-out, margin 0.2s ease-out;
 }
 
 #contacts i:hover {
     color: #3077D9;
     font-size: 80px;
+    margin: 0px;
     transform: translateY(-8px)
 }
+
 /* Media Query for single column layout */
 
 @media (max-width: 1050px) {
@@ -393,9 +407,9 @@ main {
         height: 100%;
     }
     
-        .project-card h3 {
-            font-size: 0.8rem;
-        }
+    .project-card h3 {
+        font-size: 0.8rem;
+    }
 
     .project-card p {
         font-size: 0.7rem;
