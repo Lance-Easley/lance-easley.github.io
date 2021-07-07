@@ -223,9 +223,15 @@ main {
     width: 200px;
 }
 
-#skills #dj-image {
+#skills .skill-image {
     padding-top: 15px;
     width: 75px;
+    margin-right: 10px;
+}
+
+#skills .skill-image-small {
+    padding-top: 15px;
+    width: 65px;
     margin-right: 10px;
 }
 
